@@ -166,28 +166,6 @@ body {
     filter: brightness(1.2);
 }
 
-
-Certainly! You can achieve this by updating the HTML and adding some CSS to style the circular image under the h2 text in the "About Me" section. Here's the modified code:
-
-HTML:
-
-html
-Copy code
-<!-- ... Your existing HTML ... -->
-<main class="subject">
-    <section id="about-me" class="subject-card">
-        <h2>About Me</h2>
-        <div class="divider"></div>
-        <div class="about-content">
-            <div class="circular-image">
-                <img src="assets/images/portfolio-self-img.jpg" alt="Profile Image">
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quod. Quaerat, quasi.</p>
-        </div>
-    </section>
-</main>
-
-
 .about-content {
     display: flex;
     align-items: center;
