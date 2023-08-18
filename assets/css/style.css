@@ -35,14 +35,16 @@ body {
     position: relative;
 }
 
-.header h1::before {
+.block {
     content: "";
     display: block; 
     position: absolute; 
     top: 0; 
-    width: 160%; 
-    height: 50px; 
+    left: 0; 
+    width: 50%; 
+    height: 50%;
     background-color: var(--header-deco);
+    z-index: 0; /
 }
 
 .image-container {
@@ -178,7 +180,7 @@ body {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    margin-right: 20px;
+
 }
 
 .circular-image img {
